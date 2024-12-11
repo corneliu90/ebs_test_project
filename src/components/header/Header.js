@@ -10,7 +10,7 @@ function Header() {
 
   const handleReload = (event) => {
     event.preventDefault();
-    window.location.href = "/";
+    window.location.href = "/ebs_test_project/";
   };
 
   return (
