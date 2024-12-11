@@ -1,0 +1,30 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #343a40;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px 20px;
+}
+
+.navbarBrand {
+  font-size: 1.5rem;
+  color: white;
+  text-decoration: none;
+}
+
+.navbarBrand:hover {
+  color: #ddd;
+}
+
+.navLink {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.navLink:hover {
+  color: #ddd;
+}

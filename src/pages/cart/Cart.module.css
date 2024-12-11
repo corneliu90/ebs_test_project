@@ -1,0 +1,135 @@
+.cartPage {
+  padding: 20px;
+  max-width: 800px; /* Limităm lățimea paginii coșului */
+  margin: 0 auto; /* Centrare pe pagină */
+}
+
+.cartTitle {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.listGroupItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.cartImage {
+  width: 70px; /* Dimensiune mai mică pentru imagine */
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.productDetails {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 10px;
+}
+
+.productDetails h5 {
+  font-size: 1rem; /* Micșorăm fontul */
+  margin: 0;
+  color: #333;
+}
+
+.productDetails p {
+  margin: 5px 0 0;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.inputGroup {
+  display: flex;
+  align-items: center;
+  gap: 6px; /* Spațiere între butoanele + și - */
+}
+
+.quantityInput {
+  text-align: center;
+  width: 40px; /* Reducem dimensiunea inputului */
+  height: 30px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.inputButton {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  font-size: 0.9rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.inputButton:hover {
+  background-color: #0056b3;
+}
+
+.removeButton {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  font-size: 0.9rem;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 15px; /* Spațiere față de inputGroup */
+  transition: background-color 0.3s;
+}
+
+.removeButton:hover {
+  background-color: #e63939;
+}
+
+.cartFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.clearCartButton,
+.checkoutButton {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.checkoutButton {
+  background-color: green;
+}
+
+.checkoutButton:hover {
+  background-color: rgb(11, 235, 11);
+}
+
+.clearCartButton:hover {
+  background-color: #e63939;
+}
+
+.totalPrice {
+  font-size: 1.2rem; /* Micșorăm puțin fontul */
+  font-weight: bold;
+  color: #333;
+}
