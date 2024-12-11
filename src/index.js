@@ -8,7 +8,7 @@ import "./styles/General.css";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <BrowserRouter>
+  <BrowserRouter basename="/ebs_test_project">
     <CartProvider>
       <App />
     </CartProvider>
